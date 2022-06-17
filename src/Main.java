@@ -11,7 +11,6 @@ public class Main {
     public static void main(String[] args) {
         MemberAccount member = new MemberAccount("Mustafa", "Sahin", 44, 1000, "5354588101");
         Bill bill = new Bill(100, 1, "04-07-2022");
-        new Response();
         Response response;
 
         Scanner data = new Scanner(System.in);
